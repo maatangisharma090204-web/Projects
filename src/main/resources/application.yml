@@ -1,0 +1,17 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: StudentCrud
+  datasource:
+    url: jdbc:postgresql://dpg-db0eelfavr4c73fao9i0-a.oregon-postgres.render.com:5432/students_19lo
+    username: students_19lo_user
+    password: 08Wbt8s67HgYSqBR59h37bPG7JkrxQyI
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+eureka:
+  instance:
+    hostname: localhost
